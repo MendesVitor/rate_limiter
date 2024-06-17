@@ -1,0 +1,9 @@
+### Teste de requisição sem token - permitido
+GET http://localhost:8080
+User-Agent: HTTPie/2.4.0
+
+### Teste de requisição com token - permitido
+GET http://localhost:8080
+User-Agent: HTTPie/2.4.0
+API_KEY: abc123
+
